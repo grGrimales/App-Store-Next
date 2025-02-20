@@ -2,7 +2,7 @@
 # 🛍️ Next.js Online Store Practice - App-Store-Next
 ah 
 
-This is a practice project for an online store built with **Next.js 14** and **TypeScript**. The project demonstrates different **data-fetching strategies** in Next.js, integrating the **Platzi API** for products.  
+This is a practice project for an online store built with **Next.js 15** and **TypeScript**. The project demonstrates different **data-fetching strategies** in Next.js, integrating the **Platzi API** for products.  
 
 ## 🚀 Features  
 ✅ **Home Page (SSR)** – Fetches product data server-side using `{ cache: "no-store" }`.  
