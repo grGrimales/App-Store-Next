@@ -1,15 +1,4 @@
-import ProductCard from "@/components/product/ProductCard";
 
-
-
-
-
-type Product = {
-  id: number;
-  title: string;
-  price: number;
-  images: string[]; 
-};
 
 export default async function AdminPage() {
 

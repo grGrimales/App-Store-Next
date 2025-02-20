@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { FaShoppingCart, FaHome } from "react-icons/fa";
-import { FaC } from "react-icons/fa6";
 
 export default function Navbar() {
   return (
