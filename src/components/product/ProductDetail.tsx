@@ -10,7 +10,6 @@ interface ProductDetailProps {
 
 export default function ProductDetail({ product }: ProductDetailProps) {
 
-  console.log(product);
   const [quantity, setQuantity] = useState(1);
 
   return (
