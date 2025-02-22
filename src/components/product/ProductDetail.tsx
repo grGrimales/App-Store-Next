@@ -15,7 +15,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
 
   return (
     <div className="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow-md">
-      <Image src={product.images[0] } alt={product.title} width={500} height={300} className="w-full h-64 object-cover rounded-md" />
+      <Image src='https://placehold.co/500x300' alt={product.title} width={500} height={300} className="w-full h-64 object-cover rounded-md" />
       <h2 className="text-2xl font-bold mt-4">{product.title}</h2>
       <p className="text-gray-600 text-sm mt-2">{product.description}</p>
       <p className="text-xl font-semibold text-blue-500 mt-4">${product.price.toFixed(2)}</p>

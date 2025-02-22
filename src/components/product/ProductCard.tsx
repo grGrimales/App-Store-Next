@@ -19,7 +19,7 @@ const { images, title, id, price } = product;
   return (
     <div className="border rounded-lg p-4 shadow-md bg-white hover:shadow-lg transition">
       <Image
-        src={images[0] || images[1] } 
+        src='https://placehold.co/600x400/png'
         alt={title}
         width={300}
         height={200}
