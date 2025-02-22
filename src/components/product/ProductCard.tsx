@@ -14,7 +14,7 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
-const { images, title, id, price } = product;
+const { title, id, price } = product;
 
   return (
     <div className="border rounded-lg p-4 shadow-md bg-white hover:shadow-lg transition">
